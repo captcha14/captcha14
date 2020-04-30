@@ -1,0 +1,86 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+.jumbotron{text-align: center;
+    background-image:url(../images/cover7.jpg);
+    color:white;
+}
+.btn-lg{font-size:30px;
+}
+.navbar-nav,.jumbotron h1{
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.jumbotron p {
+    font-size:25px;
+    margin-bottom: 30px;
+    padding:0 100px;
+}
+.jumbotron h2 {
+    font-size:50px;
+    margin-bottom: 30px;
+    padding:0 100px;
+}
+.jumbotron h1 {
+    margin-top:0px;
+}
+.btn-outline-warning{border-color:white; color:white;}
+
+.col-md-4 h3 {padding-top: 80px}
+
+.fa-stack-2x {
+    font-size: 6em;
+}
+.fa-stack-1x{
+    padding: 35px 12px;
+}
+.explore1{
+     font-family: 'Cinzel', serif;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    margin: 60px 10px 60px 10px;
+}
+.explore2{
+     font-family: 'Cinzel', serif;
+    font-size: 60px;
+    color:orange;
+    text-align: center;
+    margin: 60px 10px 60px 10px;
+}
+.row h3{color:orangered}
+
+.hr1{width:15%;
+  border-color: black;}
+
+.qwe{text-align: center;
+    padding:0px 100px;
+    font-size: 20px;}
+
+.explore{background-color: #f5f5f5;
+     margin-top: 0px;
+    padding-top: 10px;}
+
+.container{padding:10px 20px;
+    
+}
+.jumbotron{margin-bottom: 0px;}
+
+.bottom1{background-image:url(../images/cover3.jpg);
+     margin-bottom: 0px;
+     padding:0px 10px;
+     height:400px;
+    color: azure}
+
+.copyright{margin:0px auto;
+    color:black;}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {    .col-md-4{text-align: center;
+    margin-bottom: 10px} 
+    .display-3{font-size: 55px}
+    .jumbotron h2{font-size: 30px}
+
+}
+
+     
