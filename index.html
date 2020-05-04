@@ -18,14 +18,14 @@
     <link href="css/custom.css" rel="stylesheet">
   </head>
 
-  <body data-gr-c-s-loaded="true">
+  <body data-spy="scroll" data-target=".navbar-collapse">
 
    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
   <a class="navbar-brand" href="#">GBB</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
- <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+ <div class="collapse navbar-collapse" id="mynavbar">
    
       <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
@@ -35,7 +35,7 @@
         <a class="nav-link" href="#exp">Explore</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About us </a>
+        <a class="nav-link" href="#bottom1" tabindex="-1" aria-disabled="true">About us </a>
       </li>
       <li class="nav-item dropdown">
         
@@ -59,7 +59,28 @@
           <h1 class="display-3">KRISHI SEVA KENDRA</h1>
             <h2><span class="g">Gautam</span> <span class="b">beej </span><span class="bh">bhandar</span> </h2>
           <p>A store to provide all agriculture related products.</p>
-          <p><a class="btn btn-outline-warning btn-lg" href="#" role="button">Learn more »</a></p>
+          <p><a class="btn btn-outline-warning btn-lg" href="#" role="button" data-toggle="modal" data-target="#exampleModal">Find us »</a></p>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+ 
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <div class="map1">   
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d17375.740079720865!2d86.52512378829842!3d23.718857067920997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdafea9574ac75df6!2sGoutam%20Beej%20Bhandar!5e0!3m2!1sen!2sin!4v1588580457787!5m2!1sen!2sin" width="400" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
          <img src="images/2.png" title="normal logo">
         </div>
       </div>
@@ -102,12 +123,32 @@
           </div>
         </div>
             </div> </div>
-        <div class="bottom1">
+        <div id="bottom1">
         <div class="container">
         <h2 class="explore1">About us <hr class="hr1"> </h2>
     
-    <p class="qwe">We are a organisation which provide all agriculture goods at very low prices. And guide farmers to agriculture..</p>
-        
+            <p class="qwe">We are a organisation which provide all agriculture goods at very low prices. And guide farmers to agriculture..</p>
+<div id="mc_embed_signup" class="row">
+    <div class="col-sm-9">
+<form action="https://github.us8.list-manage.com/subscribe/post?u=a1765bcdf032c6820f9445b54&amp;id=29597a8cf1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    
+    <div id="mc_embed_signup_scroll">
+
+<div class="mc-field-group form-group">
+
+    <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Enter email">
+</div>
+    </div></div>
+    <div class="col-sm-3">
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a1765bcdf032c6820f9445b54_29597a8cf1" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="sbs btn-outline-warning btn-lg"></div>
+    </div>
+</form>
+</div>
             </div>
         </div>
         
@@ -115,6 +156,10 @@
       <!-- /container -->
 
     </main>
+      <div class="back2top">
+          <a href="#">  <i class="fa fa-arrow-circle-up fa-3x " aria-hidden="true"></i></a>
+     
+      </div>
   <div class="explore">
     <footer class="container">
       
@@ -131,6 +176,6 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="../../assets/js/vendor/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-  
 
+   
 </body></html>

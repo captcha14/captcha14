@@ -65,8 +65,9 @@ body {
     
 }
 .jumbotron{margin-bottom: 0px;}
-
-.bottom1{background-image:url(../images/cover3.jpg);
+.form-control{    font-size: 30px;
+    height: 65px;}
+#bottom1{background-image:url(../images/cover3.jpg);
      margin-bottom: 0px;
      padding:0px 10px;
      height:400px;
@@ -82,5 +83,15 @@ body {
     .jumbotron h2{font-size: 30px}
 
 }
+html {
+  scroll-behavior: smooth;
+}
 
-     
+.back2top{
+     position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+.map1{position: relative}
+
+.sbs{    color: black;}
