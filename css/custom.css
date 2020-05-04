@@ -67,11 +67,7 @@ body {
 .jumbotron{margin-bottom: 0px;}
 .form-control{    font-size: 30px;
     height: 65px;}
-#bottom1{background-image:url(../images/cover3.jpg);
-     margin-bottom: 0px;
-     padding:0px 10px;
-     height:400px;
-    color: azure}
+
 
 .copyright{margin:0px auto;
     color:black;}
@@ -95,3 +91,8 @@ html {
 .map1{position: relative}
 
 .sbs{    color: black;}
+#bottom1{background-image:url(../images/cover3.jpg);
+     margin-bottom: 0px;
+     padding:0px 10px;
+     height:400px;
+    color: azure}
