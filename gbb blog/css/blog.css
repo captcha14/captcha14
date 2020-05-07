@@ -80,15 +80,22 @@ h1, h2, h3, h4, h5, h6 {
  * Blog posts
  */
 .blog-post {
-  margin-bottom: 4rem;
+     border-bottom: 2px solid #eee;
+     margin-bottom: 20px;
 }
 .blog-post-title {
-  margin-bottom: .25rem;
-  font-size: 2.5rem;
+    margin-bottom: .25rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: capitalize;
 }
 .blog-post-meta {
-  margin-bottom: 1.25rem;
-  color: #999;
+    margin-bottom: 1.25rem;
+    color: #999;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    font-size: 14px;
+}
 }
 
 /*
@@ -116,9 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.blog-page .blog-post:nth-child(1) .blog-post-title{
-    color: #198FC6
-}
+
 
 
 
@@ -171,4 +176,36 @@ h1, h2, h3, h4, h5, h6 {
     left: 50%;
     margin-left: -130px;
 }
+.like{
+    color: white;
+    padding: .5px;
+    margin-right: 5px;
+}
 
+.blog-post img{
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.subscribes{
+    border: 5px dashed #2ecc71;
+    margin-top: 65px;
+     padding-bottom: 5px;
+}
+
+.subscribes .form-group{
+    margin-top: 20px;
+}
+    
+
+
+.sbs{
+   color: black;
+    margin-top: 10px;
+}
+.subscribes .form-group{
+    margin-top: 20px;
+}
+.center{
+    text-align: center;
+}
