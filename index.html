@@ -33,10 +33,13 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#exp">Explore</a>
+        <a class="nav-link" style="color: orange" href="#exp">Explore</a>
+      </li>
+          <li class="nav-item">
+        <a class="nav-link" style="color: #2ecc71" href="gbb%2520blog/index.html">Blog</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#bottom1" tabindex="-1" aria-disabled="true">About us </a>
+        <a class="nav-link" href="#bottom1" style="color: #e74c3c" tabindex="-1" aria-disabled="true">Subscribe</a>
       </li>
       <li class="nav-item dropdown">
         
@@ -91,7 +94,7 @@
         <!-- Example row of columns -->
           <h2 class="explore2">EXPLORE   <hr class="hr1" align="center" width="15%" border-color="orangered"></h2>
        
-        <div class="row">
+        <div class="row cvg">
           <div class="col-md-4">
              
  <span class="fa-stack fa-lg">
@@ -99,8 +102,8 @@
   <i class="fa fa-shopping-cart fa-stack-1x fa-4x"></i>
 </span>
             <h3>ONLINE SHOP</h3>
-            <p>You can purchase online anytimr and even get some discounts too.. </p>
-            <p><a class="btn btn-outline-primary" href="#" role="button">BUY »</a></p>
+            <p class="wt">You can purchase online anytimr and even get some discounts too.. </p>
+            <p><a class="btn btn-outline-primary xv" href="#" role="button">BUY »</a></p>
           </div>
           <div class="col-md-4">
                <span class="fa-stack fa-lg">
@@ -109,8 +112,8 @@
 </span>
               <h3>OUR BLOG</h3>
               
-            <p>Join our blog and stay updated..so you dont miss any news..</p>
-            <p><a class="btn btn-outline-primary" href="gbb blog/index.html" role="button">BLog »</a></p>
+            <p class="wt">Join our blog and stay updated..so you dont miss any news..</p>
+            <p><a class="btn btn-outline-primary xv" href="gbb blog/index.html" role="button">BLog »</a></p>
           </div>
           <div class="col-md-4">
                           <span class="fa-stack fa-lg">
@@ -119,8 +122,8 @@
 </span>
          
             <h3>CONTACT US  </h3>
-            <p>Give your name and number.We will contact you soon..</p>
-            <p><a class="btn btn-outline-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScCC2_hDqqQdKYfgsOaxb1ejsuFvppGWJWjEoFk0zs9asTrpQ/viewform?usp=sf_link" role="button">EXPLORE»</a></p>
+            <p class="wt">Give your name and number.We will contact you soon..</p>
+            <p><a class="btn btn-outline-primary xv" href="https://docs.google.com/forms/d/e/1FAIpQLScCC2_hDqqQdKYfgsOaxb1ejsuFvppGWJWjEoFk0zs9asTrpQ/viewform?usp=sf_link" role="button">EXPLORE»</a></p>
           </div>
         </div>
             </div> </div>
@@ -177,6 +180,16 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="../../assets/js/vendor/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-   <script async>(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m)[0];j.async=1;j.src=o;j.dataset.sumoSiteId='f5c0097dda5e7e174fdb5b1abe9c80aabaa80e62a28680c99b84082516007db2';v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');</script>
+   <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+      <script async>(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m)[0];j.async=1;j.src=o;j.dataset.sumoSiteId='f5c0097dda5e7e174fdb5b1abe9c80aabaa80e62a28680c99b84082516007db2';v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');</script>
+      <script type="text/javascript">
+	VanillaTilt.init(document.querySelector(".col-md-4"), {
+		max: 25,
+		speed: 400
+	});
+	
+	//It also supports NodeList
+	VanillaTilt.init(document.querySelectorAll(".col-md-4"));
+</script>    
    
 </body></html>

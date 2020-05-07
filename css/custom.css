@@ -48,7 +48,7 @@ body {
     text-align: center;
     margin: 60px 10px 60px 10px;
 }
-.row h3{color:orangered}
+.row h3{color: orange}
 
 .hr1{width:15%;
   border-color: black;}
@@ -96,4 +96,17 @@ html {
      padding:0px 10px;
      height:400px;
      color: azure
+}
+
+.cvg{
+    background-image: url(../images/float3.jpg);
+        
+}
+.wt {
+    color: white;
+    
+}
+.xv {
+    color: white;
+    
 }
