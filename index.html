@@ -1,181 +1,257 @@
+
 <!doctype html>
-<html lang="en"><link type="text/css" id="dark-mode" rel="stylesheet" href=""><style type="text/css" id="dark-mode-custom-style"></style><head>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.6">
+    <title>Blog@gbb</title>
 
-    <title>GBB </title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/blog/">
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/">
-<link rel="stylesheet" href="fonta/font-awesome/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+      <!-- GOOGLE FONTS-->
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&family=Lora:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/4.4/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/4.4/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+<link rel="icon" href="/docs/4.4/assets/img/favicons/favicon.ico">
+<meta name="msapplication-config" content="/docs/4.4/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#563d7c">
 
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
     <!-- Custom styles for this template -->
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/blog.css" rel="stylesheet">
+      <link rel="stylesheet" href="fonta/font-awesome/css/font-awesome.min.css">
   </head>
+  <body>
+    <div class="container">
+  <header class="blog-header py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-3 pt-1">
+        <button type="button" class="btn btn-outline-danger sbsb"><a class="sbsb" href="#subs">Subscribe</a></button>
+      </div>
+      <div class="col-6 text-center">
+        <a class="blog-header-logo text-dark" href="#">KRISHI SEVA KENDRA</a>
+      </div>
+      <div class="col-3 d-flex justify-content-end align-items-center">
+       
+      </div>
+    </div>
+  </header>
 
-  <body data-spy="scroll" data-target=".navbar-collapse">
-
-   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" href="#">GBB</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
- <div class="collapse navbar-collapse" id="mynavbar">
-   
-      <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#exp">Explore</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#bottom1" tabindex="-1" aria-disabled="true">About us </a>
-      </li>
-      <li class="nav-item dropdown">
-        
-        <div class="dropdown-menu" aria-labelledby="dropdown01">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+  <div class="nav-scroller py-2">
+    <nav class="nav d-flex">
+    <div class="topmenu">
+     <a class="p-2" href="#">Home</a>
+     <a class="p-2 active" href="#">Blog</a> 
+      <a class="p-2" href="#">About</a>
+    <a class="p-2" href="#">Contact</a> 
         </div>
-      </li>
-    </ul>
-     
-</div>
-  
-</nav>
+    </nav>
+  </div>
 
-    <main role="main">
+  <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+    <div class="col-md-6 px-0">
+      <h1 class="display-4">Gautam Beej Bhandar_BLOG</h1>
+      <p class="lead my-3">Stay updated..</p>
+      <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+    </div>
+  </div>
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <div class="container">
-          <h1 class="display-3">KRISHI SEVA KENDRA</h1>
-            <h2><span class="g">Gautam</span> <span class="b">beej </span><span class="bh">bhandar</span> </h2>
-          <p>A store to provide all agriculture related products.</p>
-          <p><a class="btn btn-outline-warning btn-lg" href="#" role="button" data-toggle="modal" data-target="#exampleModal">Find us »</a></p>
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
- 
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+  <div class="row mb-2 vb rounded">
+    <div class="col-md-6">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">Seeds</strong>
+          <h3 class="mb-0">Radhika Bhindi Guide</h3>
+          <div class="mb-1 text-muted">Nov 12</div>
+          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block d1">
+          <div class="zoom">
+                <img src="images/rd1.jpg">
+             </div> 
+        </div>
       </div>
-      <div class="modal-body">
-       <div class="map1">   
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d17375.740079720865!2d86.52512378829842!3d23.718857067920997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdafea9574ac75df6!2sGoutam%20Beej%20Bhandar!5e0!3m2!1sen!2sin!4v1588580457787!5m2!1sen!2sin" width="400" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+    </div>
+    <div class="col-md-6">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success">Pesticides</strong>
+          <h3 class="mb-0">Coragen</h3>
+          <div class="mb-1 text-muted">Nov 11</div>
+          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+            <div class="zoom">
+              
+             </div>  
+        </div>
       </div>
     </div>
   </div>
 </div>
-         <img src="images/2.png" title="normal logo">
-        </div>
-      </div>
 
-        <div class="explore" id="exp">
-      <div class="container">
-        <!-- Example row of columns -->
-          <h2 class="explore2">EXPLORE   <hr class="hr1" align="center" width="15%" border-color="orangered"></h2>
+<main role="main" class="container">
+  <div class="row">
+    <div class="col-md-8 blog-main">
+      <h3 class="pb-4 mb-4 font-italic border-bottom">
        
-        <div class="row">
-          <div class="col-md-4">
-             
- <span class="fa-stack fa-lg">
-  <i class="fa fa-square-o fa-stack-2x"></i>
-  <i class="fa fa-shopping-cart fa-stack-1x fa-4x"></i>
-</span>
-            <h3>ONLINE SHOP</h3>
-            <p>You can purchase online anytimr and even get some discounts too.. </p>
-            <p><a class="btn btn-outline-primary" href="#" role="button">BUY »</a></p>
-          </div>
-          <div class="col-md-4">
-               <span class="fa-stack fa-lg">
-  <i class="fa fa-square-o fa-stack-2x"></i>
-  <i class="fa fa-rss fa-stack-1x fa-4x"></i>
-</span>
-              <h3>OUR BLOG</h3>
-              
-            <p>Join our blog and stay updated..so you dont miss any news..</p>
-            <p><a class="btn btn-outline-primary" href="gbb blog/index.html" role="button">BLog »</a></p>
-          </div>
-          <div class="col-md-4">
-                          <span class="fa-stack fa-lg">
-  <i class="fa fa-square-o fa-stack-2x"></i>
-  <i class="fa fa-address-book-o fa-stack-1x fa-4x"></i>
-</span>
-         
-            <h3>CONTACT US  </h3>
-            <p>Give your name and number.We will contact you soon..</p>
-            <p><a class="btn btn-outline-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScCC2_hDqqQdKYfgsOaxb1ejsuFvppGWJWjEoFk0zs9asTrpQ/viewform?usp=sf_link" role="button">EXPLORE»</a></p>
-          </div>
+      </h3>
+     <div class="blog-page">
+      <div class="blog-post">
+        <h2 class="blog-post-title">Connecting online</h2>
+        <p class="blog-post-meta"><button type="button" class="btn btn-primary like" ><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>80 LIKES</button>May 7, 2020 by <a href="#">Chaitak</a></p>
+
+          <img src="images/123.jpg">
+        <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+        <hr>
+        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+        <blockquote>
+          <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+        </blockquote>
+        <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+        <h2>Heading</h2>
+        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+        <h3>Sub-heading</h3>
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        <pre><code>Example code block</code></pre>
+        <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+        <h3>Sub-heading</h3>
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <ul>
+          <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+          <li>Donec id elit non mi porta gravida at eget metus.</li>
+          <li>Nulla vitae elit libero, a pharetra augue.</li>
+        </ul>
+        <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+        <ol>
+          <li>Vestibulum id ligula porta felis euismod semper.</li>
+          <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+          <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+        </ol>
+        <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis...<a href="#">Read More</a></p>
+      </div><!-- /.blog-post -->
+      <div class="blog-post">
+        <h2 class="blog-post-title">Another blog post</h2>
+        <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
+
+        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+        <blockquote>
+          <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+        </blockquote>
+        <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+      </div><!-- /.blog-post -->
+
+      <div class="blog-post">
+        <h2 class="blog-post-title">New feature</h2>
+        <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
+
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <ul>
+          <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+          <li>Donec id elit non mi porta gravida at eget metus.</li>
+          <li>Nulla vitae elit libero, a pharetra augue.</li>
+        </ul>
+        <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+        <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+      </div><!-- /.blog-post -->
         </div>
-            </div> </div>
-        <div id="bottom1">
-        <div class="container">
-        <h2 class="explore1">About us <hr class="hr1"> </h2>
-    
-            <p class="qwe">We are a organisation which provide all agriculture goods at very low prices. And guide farmers to agriculture..</p>
-<div id="mc_embed_signup" class="row">
-    <div class="col-sm-9">
-<form action="https://github.us8.list-manage.com/subscribe/post?u=a1765bcdf032c6820f9445b54&amp;id=29597a8cf1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    
-    <div id="mc_embed_signup_scroll">
+      <nav class="blog-pagination">
+        <a class="btn btn-outline-primary" href="#">Older</a>
+        <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
+      </nav>
 
-<div class="mc-field-group form-group">
+    </div><!-- /.blog-main -->
 
+    <aside class="col-md-4 blog-sidebar">
+      <div class="p-4 mb-3 bg-light rounded subscribes" id="subs">
+        <h4>Join our newsletter</h4>
+        <p class="mb-0">Join us by giving your email id and get updates about us..We are not going to spam you</p>
+          <form action="https://github.us8.list-manage.com/subscribe/post?u=a1765bcdf032c6820f9445b54&amp;id=29597a8cf1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+  <div class="form-group">
+   
     <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Enter email">
-</div>
-    </div></div>
-    <div class="col-sm-3">
-    <div id="mce-responses" class="clear">
+       <div id="mce-responses" class="clear">
         <div class="response" id="mce-error-response" style="display:none"></div>
         <div class="response" id="mce-success-response" style="display:none"></div>
     </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a1765bcdf032c6820f9445b54_29597a8cf1" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="sbs btn-outline-warning btn-lg"></div>
-    </div>
-</form>
-</div>
-            </div>
-        </div>
-        
-
-      <!-- /container -->
-
-    </main>
-      <div class="back2top">
-          <a href="#">  <i class="fa fa-arrow-circle-up fa-3x " aria-hidden="true"></i></a>
-     
-      </div>
-  <div class="explore">
-    <footer class="container">
-      
-      <p class="copyright" align="center">© GBB 1996-2020</p>
-    
-            </footer>
-          </div>
-        
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../assets/js/vendor/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
+      <div class="clear center"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="sbs btn-outline-warning "></div>
    
-</body></html>
+              </div></form>
+      </div>
+
+      <div class="p-4">
+        <h4 class="ppostsh">most Popular posts</h4>
+        <ol class="list-unstyled mb-0 pposts">
+          <li><a href="#">this is most popular post</a></li>
+          <li><a href="#">this is also a very popular post</a></li>
+          <li><a href="#">longer text so it goes to next line but it does not go so i write this </a></li>
+       
+        </ol>
+      </div>
+
+      <div class="p-4">
+        <h4 class="font-italic">Elsewhere</h4>
+        <ol class="list-unstyled">
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ol>
+      </div>
+    </aside><!-- /.blog-sidebar -->
+
+  </div><!-- /.row -->
+
+</main><!-- /.container -->
+      
+
+<footer class="blog-footer">
+    <div class="foot">
+        <p id="foote">&#169; GBB baliapur</p>
+         <p id="foote">Stay free to mail us at
+             <a href="mailto:chaitakg@gmail.com" target="_blank">chaitakg@gmail.com</a></p>
+    </div>
+</footer>
+<script type="text/javascript" src="js/vanilla-tilt.js"></script> 
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelector(".no-gutters"), {
+		max: 25,
+		speed: 400
+	});
+	
+	//It also supports NodeList
+	VanillaTilt.init(document.querySelectorAll(".no-gutters"));
+</script>    
+   
+</body>
+</html>
