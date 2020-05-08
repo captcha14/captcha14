@@ -259,5 +259,26 @@ h1, h2, h3, h4, h5, h6 {
 .sbsb:hover{
   color: white;
     text-decoration: none;
-    
+  
 }   
+#share-buttons img {
+width: 50px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+
+#shareb{
+    font-size: 30px;
+    font-weight: 600;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+.shareb2{
+width: 40px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
