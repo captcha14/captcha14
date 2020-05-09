@@ -301,7 +301,7 @@ display: inline;
     box-shadow: 3px 3px black;
     z-index: 9999;
     height: 220px;
-    background-image: url(../images/abt.jpg)
+    padding: 5px;
 }
 .bd{
     border: 2px solid white;
